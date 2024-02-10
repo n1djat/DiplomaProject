@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header #head {
+  width: 100%;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header #head .head-container {
+  width: 85%;
+  min-width: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+header #head .head-container .head-link {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+header #head .head-container .head-link ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+  margin: auto;
+}
+header #head .head-container .head-link ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+header #head .head-container .head-link ul li a i {
+  color: red;
+}
+header #head .head-container .head-link button {
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid red;
+  color: red;
+  border-radius: 5px;
+  cursor: pointer;
+}
+header #navbar-head {
+  width: 100%;
+  min-height: 70px;
+  background-color: #E8ECF0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+header #navbar-head .navbar-container {
+  width: 85%;
+  min-width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item {
+  min-width: 65px;
+  padding: 11px 0px;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item:hover {
+  border-bottom: 1px solid red;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item:hover .navbar-drp {
+  display: block;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item:hover .kredit-drp {
+  display: block;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .nav-link {
+  font-size: 12px;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .navbar-drp {
+  display: none;
+  width: 100vw;
+  min-height: 300px;
+  background-color: aqua;
+  position: absolute;
+  top: 65px;
+  left: -110px;
+  display: flex;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .navbar-drp .drp-container {
+  width: 100%;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .navbar-drp .drp-container .drp-link {
+  width: 60%;
+  min-height: 200px;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .navbar-drp .drp-container .drp-link ul {
+  list-style: none;
+}
+header #navbar-head .navbar-container .birbank-link {
+  width: 10%;
+  text-align: end;
+}
+header #navbar-head .navbar-container .birbank-link a img {
+  width: 90%;
+}
