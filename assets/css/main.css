@@ -48,7 +48,7 @@ header #head .head-container .head-link button {
 header #navbar-head {
   width: 100%;
   min-height: 70px;
-  background-color: #E8ECF0;
+  background-color: #e8ecf0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,44 +63,107 @@ header #navbar-head .navbar-container {
 }
 header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item {
   min-width: 65px;
-  padding: 11px 0px;
+  padding: 15px 0px;
 }
-header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item:hover {
-  border-bottom: 1px solid red;
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .nav-link {
+  font-size: 13px;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp {
+  width: 100vw;
+  min-height: 250px;
+  position: absolute;
+  top: 75px;
+  left: -110;
+  display: none;
+  z-index: 9;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .drp-display {
+  display: flex;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .drp-display .drp-links {
+  width: 60%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .drp-display .drp-links .links-container {
+  width: 70%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .drp-display .drp-links .links-container ul {
+  list-style: none;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .drp-display .drp-links .links-container ul li {
+  margin-bottom: 15px;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .drp-display .drp-links .links-container ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .drp-display .drp-links .links-container ul li a:hover {
+  color: red;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .additionalOrders {
+  width: 40%;
+  min-height: 250px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .additionalOrders .ordersConrainer {
+  width: 85%;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .additionalOrders .ordersConrainer .additionalOrdersText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .additionalOrders .ordersConrainer .additionalOrdersText p {
+  font-size: 13px;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .additionalOrders .ordersConrainer .additionalOrdersText a {
+  width: 85%;
+  min-height: 50px;
+  background-color: #f45369;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: all 1s;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .additionalOrders .ordersConrainer .additionalOrdersText a:hover {
+  background-color: red;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .additionalOrders .ordersConrainer .additionalOrdersImg {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .additionalOrders .ordersConrainer .additionalOrdersImg img {
+  width: 100%;
+}
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .navbar-drp .additionalOrders .ordersConrainer .additionalOrdersImg .birbankCashbackCart {
+  width: 60%;
 }
 header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item:hover .navbar-drp {
   display: block;
 }
-header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item:hover .kredit-drp {
-  display: block;
-}
-header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item .nav-link {
-  font-size: 12px;
-}
-header #navbar-head .navbar-container .navbar .collapse .navbar-nav .navbar-drp {
-  display: none;
-  width: 100vw;
-  min-height: 300px;
-  background-color: aqua;
-  position: absolute;
-  top: 65px;
-  left: -110px;
-  display: flex;
-}
-header #navbar-head .navbar-container .navbar .collapse .navbar-nav .navbar-drp .drp-container {
-  width: 100%;
-}
-header #navbar-head .navbar-container .navbar .collapse .navbar-nav .navbar-drp .drp-container .drp-link {
-  width: 60%;
-  min-height: 200px;
-  background-color: bisque;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-header #navbar-head .navbar-container .navbar .collapse .navbar-nav .navbar-drp .drp-container .drp-link ul {
-  list-style: none;
+header #navbar-head .navbar-container .navbar .collapse .navbar-nav .nav-item:hover {
+  border-bottom: 1px solid red;
 }
 header #navbar-head .navbar-container .birbank-link {
   width: 10%;
@@ -108,4 +171,260 @@ header #navbar-head .navbar-container .birbank-link {
 }
 header #navbar-head .navbar-container .birbank-link a img {
   width: 90%;
+}
+
+main {
+  margin-top: 5px;
+}
+main #hero {
+  width: 100%;
+}
+main #hero .sliderSection {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8ecf0;
+}
+main #hero .sliderSection .sliderContainer {
+  width: 85%;
+  min-height: 400px;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .carousel-inner .carousel-item .slide-content {
+  display: flex;
+  justify-content: space-between;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .carousel-inner .carousel-item .slide-content .slideText {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding: 20px;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .carousel-inner .carousel-item .slide-content .slideText a {
+  width: 60%;
+  min-height: 50px;
+  background-color: #f45369;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .carousel-inner .carousel-item .slide-content .slideText a:hover {
+  background-color: #ee3f42;
+  transition: all 0.5s;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .carousel-inner .carousel-item .slide-content .slideImg {
+  width: 60%;
+  min-height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .carousel-inner .carousel-item .slide-content .slideImg:hover img {
+  width: 70%;
+  transition: all 1s;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .carousel-inner .carousel-item .slide-content .slideImg:hover .carouselImageSize {
+  width: 42%;
+  transition: all 1s;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .carousel-inner .carousel-item .slide-content .slideImg .carouselImageSize {
+  width: 40%;
+  transition: all 1s;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .carousel-inner .carousel-item .slide-content .slideImg img {
+  width: 60%;
+  transition: all 1s;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .controlButtons {
+  width: 100%;
+  min-height: 90px;
+  position: relative;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .controlButtons a {
+  width: 0%;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .controlButtons span i {
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .controlButtons .carousel-control-prev,
+main #hero .sliderSection .sliderContainer #carouselExampleControls .controlButtons .carousel-control-next {
+  align-items: flex-end;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .controlButtons .fa-chevron-left {
+  position: absolute;
+  bottom: 100px;
+  left: 75vw;
+}
+main #hero .sliderSection .sliderContainer #carouselExampleControls .controlButtons .fa-chevron-right {
+  position: absolute;
+  bottom: 100px;
+  right: 20px;
+}
+main #hero .additionalOperations {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #hero .additionalOperations .additionalOperationsContainer {
+  width: 85%;
+  min-height: 200px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 50px;
+}
+main #hero .additionalOperations .additionalOperationsContainer .operatinons {
+  width: 18%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #hero .additionalOperations .additionalOperationsContainer .operatinons .operatinonsContainer {
+  width: 95%;
+  height: 150px;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  transition: all 1s;
+  box-sizing: border-box;
+}
+main #hero .additionalOperations .additionalOperationsContainer .operatinons .operatinonsContainer:hover {
+  width: 100%;
+  height: 170px;
+  transition: all 1s;
+}
+main #hero .additionalOperations .additionalOperationsContainer .operatinons i {
+  font-size: 30px;
+  color: red;
+}
+main #hero .additionalOperations .additionalOperationsContainer .operatinons h5 {
+  text-align: center;
+  font-size: 17px;
+}
+main #hero .additionalOperations .additionalOperationsContainer .operatinons h5 p {
+  margin: 0;
+  font-weight: bold;
+}
+main #hero .additionalOperations .additionalOperationsContainer .operatinons h5 span {
+  font-weight: bold;
+}
+main #cardAboutSlider {
+  width: 100%;
+  min-height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #cardAboutSlider #carouselExampleControls2 {
+  width: 100%;
+  position: relative;
+}
+main #cardAboutSlider #carouselExampleControls2 .carousel-inner .carousel-item .cardAboutHeader {
+  width: 100%;
+  min-height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #cardAboutSlider #carouselExampleControls2 .carousel-inner .carousel-item .cardAboutHeader .cardAboutHeaderContainer {
+  width: 85%;
+}
+main #cardAboutSlider #carouselExampleControls2 .carousel-inner .carousel-item .cardAboutHeader .cardAboutHeaderContainer .aboutTextBorder {
+  width: 45%;
+}
+main #cardAboutSlider #carouselExampleControls2 .carousel-inner .carousel-item .cardAboutContent {
+  width: 100%;
+  min-height: 230px;
+  background-color: #EAECF0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #cardAboutSlider #carouselExampleControls2 .carousel-inner .carousel-item .cardAboutContent .cardAboutContentContainer {
+  width: 85%;
+  min-height: 230px;
+  padding: 20px 0px;
+}
+main #cardAboutSlider #carouselExampleControls2 .carousel-inner .carousel-item .cardAboutContent .cardAboutContentContainer .cardAbout {
+  display: flex;
+  justify-content: space-between;
+}
+main #cardAboutSlider #carouselExampleControls2 .carousel-inner .carousel-item .cardAboutContent .cardAboutContentContainer .cardAbout a {
+  width: 75%;
+  min-height: 60px;
+  background-color: #f45369;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: all 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+main #cardAboutSlider #carouselExampleControls2 .carousel-inner .carousel-item .cardAboutContent .cardAboutContentContainer .cardAbout a:hover {
+  background-color: red;
+}
+main #cardAboutSlider #carouselExampleControls2 .carousel-inner .carousel-item .cardAboutContent .cardAboutContentContainer .cardAbout .cardAboutImg {
+  width: 30%;
+  min-height: 200px;
+  position: relative;
+}
+main #cardAboutSlider #carouselExampleControls2 .carousel-inner .carousel-item .cardAboutContent .cardAboutContentContainer .cardAbout .cardAboutImg img {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: -60px;
+}
+main #cardAboutSlider #carouselExampleControls2 .controlButtons {
+  width: 100%;
+  min-height: 90px;
+  position: relative;
+}
+main #cardAboutSlider #carouselExampleControls2 .controlButtons a {
+  width: 0%;
+}
+main #cardAboutSlider #carouselExampleControls2 .controlButtons span i {
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+main #cardAboutSlider #carouselExampleControls2 .controlButtons .carousel-control-prev,
+main #cardAboutSlider #carouselExampleControls2 .controlButtons .carousel-control-next {
+  align-items: flex-end;
+}
+main #cardAboutSlider #carouselExampleControls2 .controlButtons .fa-chevron-left {
+  position: absolute;
+  bottom: 100px;
+  left: 83vw;
+}
+main #cardAboutSlider #carouselExampleControls2 .controlButtons .fa-chevron-right {
+  position: absolute;
+  bottom: 100px;
+  right: 10vw;
 }

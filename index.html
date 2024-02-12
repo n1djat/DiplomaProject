@@ -9,164 +9,784 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
     <header>
-        <div id="head">
-            <div class="head-container">
-                <div class="logo">
-                    <a href="./index.html">
-                    <img src="./assets/images/kb-logo-main.svg" alt="">
-                    </a>
-                </div>
-                <div class="head-link">
-                    <ul>
-                        <li>
-                            <a href=""> Fiziki şəxslər üçün</a>
-                        </li>
-                        <li>
-                            <a href="">  Biznes üçün </a>
-                        </li>
-                        <li>
-                            <a href=""> <i class="fa-solid fa-location-dot"></i> Xidmət şəbəkəsi </a>
-                        </li>
-                        <li>
-                            <a href="">EN</a>
-                        </li>
-                        <li>
-                            <a href="">RU</a>
-                        </li>
-                    </ul>
-                    <button id="searchBTN"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </div>
-            </div>
+      <div id="head">
+        <div class="head-container">
+          <div class="logo">
+            <a href="./index.html">
+              <img src="./assets/images/kb-logo-main.svg" alt="" />
+            </a>
+          </div>
+          <div class="head-link">
+            <ul>
+              <li>
+                <a href=""> Fiziki şəxslər üçün</a>
+              </li>
+              <li>
+                <a href=""> Biznes üçün </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa-solid fa-location-dot"></i> Xidmət şəbəkəsi
+                </a>
+              </li>
+              <li>
+                <a href="">EN</a>
+              </li>
+              <li>
+                <a href="">RU</a>
+              </li>
+            </ul>
+            <button id="searchBTN">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
         </div>
+      </div>
 
-        <div id="navbar-head">
-            <div class="navbar-container ">
-                <nav class="navbar navbar-expand-lg navbar-light ">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">KARTLAR</a>
+      <div id="navbar-head">
+        <div class="navbar-container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">KARTLAR</a>
 
-                          <div class="navbar-drp">
-                            <div class="drp-container">
-                                <div class="drp-link">
-                                    <ul>
-                                        <li>
-                                            <a href="">
-                                                Taksit kartlar
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                Debet kartlar
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                Hədiyyə kartlar
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                Kartlar üzrə xidmətlər
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            <a href="">
-                                                Taksit kartlar
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                Debet kartlar
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                Hədiyyə kartlar
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                Kartlar üzrə xidmətlər
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                  <div class="navbar-drp">
+                    <div class="drp-display">
+                      <div class="drp-links">
+                        <div class="links-container">
+                          <ul>
+                            <li>
+                              <a href="" class="font-weight-bold"
+                                >Taksit kartlar</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="font-weight-bold"
+                                >Debet kartlar</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="font-weight-bold"
+                                >Hədiyyə kartlar</a
+                              >
+                            </li>
+                            <li>
+                              <a href="">Kartlar üzrə xidmətlər</a>
+                            </li>
+                          </ul>
+                          <ul>
+                            <li>
+                              <a href="">Təhlükəsizlik qaydaları</a>
+                            </li>
+                            <li>
+                              <a href="">3D Secure</a>
+                            </li>
+                            <li>
+                              <a href="">Kart sifarişi </a>
+                            </li>
+                            <li>
+                              <a href="">Birbank kartının eyniləşdirilməsi</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="additionalOrders">
+                        <div class="ordersConrainer">
+                          <div class="additionalOrdersText">
+                            <h5>Birbank Cashback taksit</h5>
+                            <p>
+                              Kartla edilən nağdsız ödənişlərə minimum 1.5%-dən
+                              başlayan keşbek, faizsiz və komissiyasız taksit
+                              imkanı verən unikal bir kartdır.
+                            </p>
+                            <a href=""> Bir kliklə sifariş et </a>
                           </div>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">KREDITLƏR</a>
-                          <div class="navbar-drp">
-                            <div class="drp-container">
-                                <div class="drp-link">
-                                    <ul>
-                                        <li>
-                                            <a href="">
-                                                Nağd kreditin maksimal məbləğini artırdıq!
-                                            </a>
-                                        </li>
-                                            <a href="">
-                                                Nağd pul krediti
-                                            </a>
-                                        </li>
-                                            <a href="">
-                                                Avtomobil krediti
-                                            </a>
-                                        </li>
-                                            <a href="">
-                                                Mikro Biznes Kreditleri
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                          <div class="additionalOrdersImg">
+                            <img
+                              class="birbankCashbackCart"
+                              src="./assets/images/birbank-cashback-debet1656680037.png"
+                              alt=""
+                            />
                           </div>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">İPOTEKALAR <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">DEPOZİTLƏR <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">PUL KÖÇÜRMƏLƏRİ <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">ONLAYN XİDMƏTLƏR <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">KAMPANYALAR<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">FƏRDİ BANKÇILIQ <span class="sr-only">(current)</span></a>
-                        </li>
-                      </ul>
+                        </div>
+                      </div>
                     </div>
-                  </nav>
-                  <div class="birbank-link">
-                    <a href="">
-                        <img src="./assets/images/Ekran Resmi 2024-02-10 18.26.31.png" alt="">
-                      </a>
                   </div>
-                  
-            </div>
-        </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">KREDITLƏR</a>
+                  <div class="navbar-drp">
+                    <div class="drp-display">
+                      <div class="drp-links">
+                        <div class="links-container">
+                          <ul>
+                            <li>
+                              <a href="" class="font-weight-bold"
+                                >Nağd kreditin maksimal məbləğini artırdıq!</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="font-weight-bold"
+                                >Nağd pul krediti</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="font-weight-bold"
+                                >Avtomobil krediti</a
+                              >
+                            </li>
+                            <li>
+                              <a href="">Mikro Biznes Kreditləri</a>
+                            </li>
+                          </ul>
+                          <ul>
+                            <li>
+                              <a href="">Daşınmaz əmlak təminatlı kredit</a>
+                            </li>
+                            <li>
+                              <a href="">Əmanət təminatlı kredit</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="additionalOrders">
+                        <div class="ordersConrainer">
+                          <div class="additionalOrdersText">
+                            <h5>Nağd pul krediti</h5>
+                            <p>50000 AZN dək Nağd pul krediti</p>
+                            <a href=""> Bir kliklə sifariş et </a>
+                          </div>
+                          <div class="additionalOrdersImg">
+                            <img src="./assets/images/daily-loan3.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >İPOTEKALAR <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >DEPOZİTLƏR <span class="sr-only">(current)</span></a
+                  >
+                  <div class="navbar-drp">
+                    <div class="drp-display">
+                      <div class="drp-links">
+                        <div class="links-container">
+                          <ul>
+                            <li>
+                              <a href="" class="font-weight-bold"
+                                >Kapital depoziti</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="font-weight-bold"
+                                >Müddətsiz depozit</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="font-weight-bold"
+                                >Depozit seyfləri</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="additionalOrders">
+                        <div class="ordersConrainer">
+                          <div class="additionalOrdersText">
+                            <h5>Kapital depoziti</h5>
+                            <p>
+                              Yüksək faiz əldə etməklə yanaşı, müqavilənin bitmə
+                              tarixinə 1 ay (30 təqvim günü) qalanadək məbləğı
+                              artırın.
+                            </p>
+                            <a href=""> Bir kliklə sifariş et </a>
+                          </div>
+                          <div class="additionalOrdersImg">
+                            <img src="./assets/images/depozit-2.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >PUL KÖÇÜRMƏLƏRİ <span class="sr-only">(current)</span></a
+                  >
 
-       
+                  <div class="navbar-drp">
+                    <div class="drp-display">
+                      <div class="drp-links">
+                        <div class="links-container">
+                          <ul>
+                            <li>
+                              <a href="" class="font-weight-bold text-danger"
+                                >Birbank ilə istənilən karta pul köçürün!</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="font-weight-bold">Xəzri</a>
+                            </li>
+                            <li>
+                              <a href="" class="font-weight-bold">
+                                Zolotaya Karona</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="font-weight-bold"
+                                >Western Union</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="additionalOrders">
+                        <div class="ordersConrainer">
+                          <div class="additionalOrdersText">
+                            <h5>Birbank</h5>
+                            <p>
+                              Birbankla istənilən karta pul köçürün! Artıq
+                              Birbankla telefonunuzdan istənilən bank kartına
+                              asanlıqla pul göndərə bilərsiniz.
+                            </p>
+                            <a href=""> Bir kliklə sifariş et </a>
+                          </div>
+                          <div class="additionalOrdersImg">
+                            <img src="./assets/images/bblogo.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >ONLAYN XİDMƏTLƏR <span class="sr-only">(current)</span></a
+                  >
+
+                  <div class="navbar-drp">
+                    <div class="drp-display">
+                      <div class="drp-links">
+                        <div class="links-container">
+                          <ul>
+                            <li>
+                              <a href="" class="font-weight-bold"
+                                >Kart sifarişi
+                              </a>
+                            </li>
+                            <li>
+                              <a href="" class="font-weight-bold">
+                                Kredit sifarişi</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="font-weight-bold">
+                                Kredit ödənişi</a
+                              >
+                            </li>
+                            <li>
+                              <a href=""> Kommunal ödənişlər</a>
+                            </li>
+                          </ul>
+                          <ul>
+                            <li>
+                              <a href="">Onlayn növbə</a>
+                            </li>
+                            <li>
+                              <a href="">Arayış və çıxarışların alınması</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="additionalOrders">
+                        <div class="ordersConrainer">
+                          <div class="additionalOrdersText">
+                            <h5>Nağd pul krediti</h5>
+                            <p>50000 AZN dək Nağd pul krediti</p>
+                            <a href=""> Bir kliklə sifariş et </a>
+                          </div>
+                          <div class="additionalOrdersImg">
+                            <img
+                              class="birbankCashbackCart"
+                              src="./assets/images/birbank-cashback-debet1656680037.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >KAMPANYALAR<span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >FƏRDİ BANKÇILIQ <span class="sr-only">(current)</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="birbank-link">
+            <a href="">
+              <img
+                src="./assets/images/Ekran Resmi 2024-02-10 18.26.31.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
-    <main></main>
+    <main>
+      <section id="hero">
+        <div class="sliderSection">
+          <div class="sliderContainer">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-ride="carousel"  data-interval="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="slide-content">
+                    <div class="slideText">
+                      <h2>Yüksəlmiş faizlə gəliriniz çoxlasın!</h2>
+                      <a href=""> Daha Ətraflı </a>
+                    </div>
+                    <div class="slideImg">
+                      <img
+                        class="carouselImageSize"
+                        src="./assets/images/yukselmis-faizle-geliriniz-coxalsin-101706529253.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="slide-content">
+                    <div class="slideText">
+                      <h2>
+                        Karyera imkanları “Kapital Bank Life” səhifəmizdə!
+                      </h2>
+                      <a href=""> Daha Ətraflı </a>
+                    </div>
+                    <div class="slideImg">
+                      <img src="./assets/images/kb-life1703580859.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="slide-content">
+                    <div class="slideText">
+                      <h2>İpoteka krediti</h2>
+                      <p>Mənzil sahibi olmaq və ya yeniləmək istəyənlər üçün</p>
+                      <a href=""> Daha Ətraflı </a>
+                    </div>
+                    <div class="slideImg">
+                      <img
+                        class="carouselImageSize"
+                        src="./assets/images/ipoteka-krediti1655890221.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="slide-content">
+                    <div class="slideText">
+                      <h2>Həftəsonu iş rejimi</h2>
+                      <p>
+                        Bir çox filiallarımız şənbə və bazar günü də fəaliyyət
+                        göstərir.
+                      </p>
+                      <a href=""> Daha Ətraflı </a>
+                    </div>
+                    <div class="slideImg">
+                      <img
+                        src="./assets/images/heftesonu-is-rejimi1639578179.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="slide-content">
+                    <div class="slideText">
+                      <h2>Nağd kreditin maksimal məbləğini artırdıq!</h2>
+                      <a href=""> Daha Ətraflı </a>
+                    </div>
+                    <div class="slideImg">
+                      <img
+                        src="./assets/images/gtk-50000-azn-dek-kredit1704797858.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="controlButtons">
+                <div>
+                  <a
+                    class="carousel-control-prev"
+                    href="#carouselExampleControls"
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <span aria-hidden="true">
+                      <i class="fa-solid fa-chevron-left"></i>
+                    </span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                </div>
+                <div>
+                  <a
+                    class="carousel-control-next"
+                    href="#carouselExampleControls"
+                    role="button"
+                    data-slide="next"
+                  >
+                    <span aria-hidden="true"
+                      ><i class="fa-solid fa-chevron-right"></i
+                    ></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="additionalOperations">
+          <div class="additionalOperationsContainer">
+            <div class="operatinons">
+              <div class="operatinonsContainer">
+                <i class="fa-regular fa-credit-card"></i>
+                <h5>
+                  <span> Kredit </span>
+                  sifariş et
+                </h5>
+              </div>
+            </div>
+            <div class="operatinons">
+              <div class="operatinonsContainer">
+                <i class="fa-regular fa-credit-card"></i>
+                <h5>
+                  <p>Birbank kartı</p>
+                  sifaiş et
+                </h5>
+              </div>
+            </div>
+            <div class="operatinons">
+              <div class="operatinonsContainer">
+                <i class="fa-regular fa-credit-card"></i>
+                <h5>
+                  <span> Depozit </span>
+                  sifariş et
+                </h5>
+              </div>
+            </div>
+            <div class="operatinons">
+              <div class="operatinonsContainer">
+                <i class="fa-regular fa-credit-card"></i>
+                <h5>
+                  <span> Debet kart </span>
+                  sifaiş et
+                </h5>
+              </div>
+            </div>
+            <div class="operatinons">
+              <div class="operatinonsContainer">
+                <i class="fa-regular fa-credit-card"></i>
+                <h5>
+                  <span> Kampanyalara </span>
+                  bax
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cardAboutSlider">
+        <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel"  data-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="cardAboutHeader">
+                <div class="cardAboutHeaderContainer">
+                  <div class="aboutTextBorder">
+                    <h1>
+                      Birbank 
+                       <span class="font-weight-bold">  
+                        Cashback taksit
+                      </span>
+                    </h1>
+                    <p>
+                      Kartla edilən nağdsız ödənişlərə minimum 1.5%-dən başlayan  keşbek, faizsiz və 
+                      komissiyasız taksit imkanı verən unikal bir kartdır. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="cardAboutContent">
+                <div class="cardAboutContentContainer">
+                  <div class="cardAbout">
+                    <div class="d-flex flex-column justify-content-evenly">
+                      <h3 class="text-danger">
+                        30%-dək keşbek və 2 qat ƏDV
+                      </h3>
+                      <p>
+                        bonus
+                      </p>
+                      <a href=""> 
+                        Sifariş et
+                      </a>
+                    </div>
+                    <div>
+                      <h3 class="text-danger">
+                        pulsuz
+                      </h3>
+                      <p>
+                        Kartın qiyməti 
+                      </p>
+                    </div>
+                    <div>
+                      <h3 class="text-danger">
+                        63 günədək
+                      </h3>
+                      <p>
+                        Güzəşt müddəti 
+                      </p>
+                    </div>
+                    <div class="cardAboutImg">
+                      <img src="./assets/images/birbank-cashback-home.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="cardAboutHeader">
+                <div class="cardAboutHeaderContainer">
+                  <div class="aboutTextBorder">
+                    <h1>
+                      Birbank 
+                       <span class="font-weight-bold">  
+                        Umico taksit 
+                      </span>
+                    </h1>
+                    <p>
+                      Gündəlik alış-veriş üçün olan, kredit və taksit kartı imkanlarını birləşdirən, Umico bonusları qazanma imkanını təqdim edən unikal bir kartdır.  
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="cardAboutContent">
+                <div class="cardAboutContentContainer">
+                  <div class="cardAbout">
+                    <div class="d-flex flex-column justify-content-evenly">
+                      <h3 class="text-danger">
+                        1.4%-dən başlayan
+                      </h3>
+                      <p>
+                        keşbek
+                      </p>
+                      <a href=""> 
+                        Sifariş et
+                      </a>
+                    </div>
+                    <div>
+                      <h3 class="text-danger">
+                        pulsuz
+                      </h3>
+                      <p>
+                        Kartın qiyməti 
+                      </p>
+                    </div>
+                    <div>
+                      <h3 class="text-danger">
+                        63 günədək
+                      </h3>
+                      <p>
+                        Güzəşt müddəti 
+                      </p>
+                    </div>
+                    <div class="cardAboutImg">
+                      <img src="./assets/images/birbank-umico-home.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="cardAboutHeader">
+                <div class="cardAboutHeaderContainer">
+                  <div class="aboutTextBorder">
+                    <h1>
+                      Birbank 
+                       <span class="font-weight-bold">  
+                        Miles taksit
+                      </span>
+                    </h1>
+                    <p>
+                      Kartla edilən nağdsız ödənişlərə 1 AZN-ə 1 mil bonus qazandıran, pulsuz səyahət, faizsiz və komissiyasız taksit imkanı verən unikal bir kartdır.  
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="cardAboutContent">
+                <div class="cardAboutContentContainer">
+                  <div class="cardAbout">
+                    <div class="d-flex flex-column justify-content-evenly">
+                      <h3 class="text-danger">
+                        1 AZN = 1 Mil
+                      </h3>
+                      <p>
+                        Millərin toplanması
+                      </p>
+                      <a href=""> 
+                        Sifariş et
+                      </a>
+                    </div>
+                    <div>
+                      <h3 class="text-danger">
+                        pulsuz
+                      </h3>
+                      <p>
+                        Kartın qiyməti 
+                      </p>
+                    </div>
+                    <div>
+                      <h3 class="text-danger">
+                        63 günədək
+                      </h3>
+                      <p>
+                        Güzəşt müddəti 
+                      </p>
+                    </div>
+                    <div class="cardAboutImg">
+                      <img src="./assets/images/birbank-miles-home.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="cardAboutHeader">
+                <div class="cardAboutHeaderContainer">
+                  <div class="aboutTextBorder">
+                    <h1>
+                      Birbank 
+                       <span class="font-weight-bold">  
+                        Umico taksit
+                      </span>
+                    </h1>
+                    <p>
+                      Kapital Bank və Umiconun birgə təqdim etdiyi, gündəlik alış-veriş üçün nəzərdə tutulan, kredit və taksit kartı imkanlarını birləşdirən və hər yerdə əlavə Umico bonusları qazanma imkanını təqdim edən unikal bir kartdır. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="cardAboutContent">
+                <div class="cardAboutContentContainer">
+                  <div class="cardAbout">
+                    <div class="d-flex flex-column justify-content-evenly">
+                      <h3 class="text-danger">
+                        1.5%-dən başlayan
+                      </h3>
+                      <p>
+                        Keşbek
+                      </p>
+                      <a href=""> 
+                        Sifariş et
+                      </a>
+                    </div>
+                    <div>
+                      <h3 class="text-danger">
+                        pulsuz
+                      </h3>
+                      <p>
+                        Kartın qiyməti 
+                      </p>
+                    </div>
+                    <div>
+                      <h3 class="text-danger">
+                        63 günədək
+                      </h3>
+                      <p>
+                        Güzəşt müddəti 
+                      </p>
+                    </div>
+                    <div class="cardAboutImg">
+                      <img src="./assets/images/birbank-umico-premium-home.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="controlButtons">
+            <div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleControls2"
+                role="button"
+                data-slide="prev"
+              >
+                <span aria-hidden="true">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+            <div>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleControls2"
+                role="button"
+                data-slide="next"
+              >
+                <span aria-hidden="true"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
