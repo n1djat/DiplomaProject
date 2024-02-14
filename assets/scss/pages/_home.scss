@@ -324,13 +324,13 @@ main {
               position: absolute;
               bottom: 100px;
               left: 75vw;
-          }
-          
-          .fa-chevron-right {
+            }
+
+            .fa-chevron-right {
               position: absolute;
               bottom: 100px;
               right: 20px;
-          }
+            }
           }
         }
       }
@@ -433,7 +433,7 @@ main {
           .cardAboutContent {
             width: 100%;
             min-height: 230px;
-            background-color: #EAECF0;
+            background-color: #eaecf0;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -460,7 +460,6 @@ main {
                   align-items: center;
                   justify-content: center;
                   font-size: 22px;
-                  
 
                   &:hover {
                     background-color: red;
@@ -480,12 +479,9 @@ main {
                   }
                 }
               }
-
             }
           }
         }
-
-        
       }
 
       .controlButtons {
@@ -514,17 +510,234 @@ main {
           position: absolute;
           bottom: 100px;
           left: 83vw;
-      }
-      
-      .fa-chevron-right {
+        }
+
+        .fa-chevron-right {
           position: absolute;
           bottom: 100px;
           right: 10vw;
+        }
       }
-      }
+    }
+  }
 
+  #moneyCredit {
+    width: 100%;
+    min-height: 350px;
+
+    .moneyCreditHeader {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .moneyCreditHeaderContainer {
+        width: 85%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        .moneyCreditText {
+          width: 65%;
+          padding: 20px 0px;
+
+          p {
+            font-size: 35px;
+          }
+        }
+      }
     }
 
-    
+    .moneyCreditContent {
+      width: 100%;
+      background-color: #eaecf0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .moneyCreditContentContainer {
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+
+        .moneyCreditImg {
+          width: 30%;
+          min-height: 150px;
+          position: relative;
+
+          img {
+            position: absolute;
+            bottom: 0px;
+            left: -50px;
+          }
+        }
+
+        .moneyCreditAddination {
+          width: 65%;
+          min-height: 200px;
+          display: flex;
+          justify-content: space-between;
+          padding: 20px 0px;
+
+          div {
+            width: 33%;
+            a {
+              width: 100%;
+              min-height: 60px;
+              background-color: #f45369;
+              border-radius: 5px;
+              color: white;
+              text-decoration: none;
+              margin-top: 15px;
+              transition: all 1s;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 22px;
+
+              &:hover {
+                background-color: red;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #calculator {
+    width: 100%;
+    min-height: 500px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .calculatorContainer {
+      width: 85%;
+      min-height: 500px;
+      background-color: bisque;
+
+      .calculatorHeader {
+        width: 100%;
+        min-height: 100px;
+        background-color: brown;
+
+        .calculatorHeadingText {
+
+        }
+
+        .calcularotHeadingBtn {
+          button {
+            padding: 5px 20px;
+            background-color: #eaecf0;
+            border: none;
+            border-radius: 20px;
+            margin-right: 5px;
+            transition: all 0.8s;
+            cursor: pointer;
+
+
+            &:hover {
+              background-color: #ee3f42;
+              color: white;
+              transition: all 0.8s;
+
+            }
+          }
+        }
+      }
+
+      .calculatorContent {
+        width: 100%;
+        min-height: 400px;
+        background-color: cadetblue;
+
+        #kreditCalculator {
+          width: 60%;
+          min-height: 300px;
+          background-color: tan;
+          
+        }
+
+        .kreditCalculatorHeader {
+          width: 100%;
+          min-height: 120px;
+          background-color: dodgerblue;
+        }
+
+        .kreditCalcualtorRange {
+          width: 100%;
+          min-height: 400px;
+          background-color: darkslateblue;  
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;  
+
+
+          .rangeDiv {
+            width: 100%;
+            min-height: 80px;
+            background-color: white;
+
+            .sliderValue {
+              padding: 20px;
+              border: 1px solid #D4D4D4;
+              margin-bottom: 0;
+              border-radius: 5px;
+              border-bottom: none;
+            }
+
+            .calculatorRange {
+              width: 100%;
+              height: 3px;
+              border-radius: 5px;
+              background: #e8ecf0;
+              outline: none;
+              opacity: 0.7;
+              -webkit-transition: .2s;
+              transition: opacity .2s;
+              -webkit-appearance: none;
+
+            }
+
+            
+
+
+            .calculatorRange::-webkit-slider-thumb {
+              -webkit-appearance: none;
+              appearance: none;
+              width: 20px;
+              height: 21px;
+              border: 4px solid white;
+              background: red ;
+              border-radius: 50%;
+              cursor: pointer;
+            }
+            
+            .calculatorRange::-moz-range-thumb {
+              width: 23px;
+              height: 24px;
+              border: 0;
+              background-color: blue;
+              cursor: pointer;
+            }
+
+
+
+            .rangeInterval {
+              min-height: 40px;
+              display: flex;
+              align-items: end;
+              justify-content: space-between;
+
+              p {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
